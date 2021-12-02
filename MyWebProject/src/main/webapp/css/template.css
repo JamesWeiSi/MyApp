@@ -1,0 +1,419 @@
+@charset "UTF-8";
+
+
+body{
+	margin: 0 auto;
+	padding: 0;
+	
+}
+/* Margin left 180px (150px = 10%)*/
+/*---------------------------------------------- Header -------------------------------*/
+
+.header{
+		background-color: #eeeeee;
+		margin: 0 auto;
+		padding: 10px;
+		list-style: none;
+		overflow: hidden;
+		color: #3a1e9d;
+		width: 1500px;     /*-Width of 1st div-*/
+}
+
+
+.header a{
+	
+		color: #3a1e9d;
+}
+
+.header a:hover{
+		color: #5a5ffa;
+}
+
+.header li{
+		float: left;
+		text-align: center;
+		font-size: 18px;
+}
+
+.header .header2{
+		float: right;
+		width: 39px;
+}
+
+
+#h_right{
+		width: 150px;
+}
+
+
+/*----------------------------------------Division of Company Icon & Search Bar--------------------------------*/
+.searchWrap{
+  	padding: 10px 16px;
+  	margin: 2px auto;
+	height: 100px;
+	width: 1500px;     /*-Width of 2nd div-*/
+	
+}
+
+/*- Both div logo & div bar float to left-*/
+.search{
+	margin: 5px;
+	float: left;
+	padding: 1px;
+}
+
+
+.logo{                     /*-Width & height of the div-*/			
+	width: 300px;   
+	height: 100%;
+	margin-left: 150px;      /* margin left 150px (10%)*/
+
+}	
+	
+.logo img{
+	height: 100%;
+	width: 100%;
+}
+
+/*-Set all sub-div float to left & the width of .barwrap-*/
+.searchWrap .bar{
+	width: 600px;
+	margin-left: 5%;
+			
+}
+	
+/*-Set up division of search-*/
+.barwrap{
+    	width: 450px;
+    	height: 41px;
+    	position: relative;
+    	margin: 20px auto auto auto;
+    	border: 3px solid #9ec1fc ;
+    	border-radius: 25px ;
+}
+		
+#iconImg{	
+    	position: absolute;
+    	width: 36px;
+    	height: 36px;
+    	left: 2px;
+    	top: 3.8px; 
+    	border-radius: 25px ;
+	
+}
+		
+#srchtext{
+    	width:310px;
+    	height: 39px;
+    	font-size: 19px;
+    	border: 0px;
+    	position: absolute;
+    	left:39px;
+}
+
+#srchsubmit{
+    	width: 80px;
+    	height:41px;
+    	font-size: 19px;
+    	border-radius: 25px;
+    	position: absolute;
+    	right: 0px;
+    	top: 0px;
+    	border: 0px;
+    	background-color: #9ec1fc;
+}
+
+.Cart{
+		margin-left: 10%;
+		width: 120px;
+		height: 45px;
+		margin-top: 50px;
+    	border: 1px solid red;
+}
+
+/*---------------------------------------------- Navigation Bar Wrap-----------------------------------------*/
+
+
+.navBarContainer{
+		margin: 0 auto;
+		background-color: #9ec1fc;
+		height: 55px;
+		width: 1500px;     /*-Width of 3rd div-*/
+}
+
+/*---------------- Navigation Bar margin left 11%-------------*/
+.nav{
+		height: 100%;
+    	margin: 0;
+    	padding: 0;
+    	margin-left: 150px;   /* - Margin left 150px - */
+}
+
+/*-------------- Set Navigation Bar contents-------------*/
+.nav li{
+		height: 55px;
+		width: 170px;
+		float: left;
+		list-style: none;
+		overflow: hidden;
+		padding: 0 15px;
+	
+}
+
+/*-The first li of Navigation bar-*/
+.allProducts{
+		background-color: #0658df;
+		height: 55px;
+		margin: 0;
+		font-size: 29px;
+		padding: 15px;
+		text-align: center;
+		line-height: 55px; /*-Set the position of content-*/
+		font-weight: bold;
+		color: #00eae4;
+}
+
+
+	
+.nav li a{
+		color: #3a1e9d;
+		font-size: 20px;
+		padding: 15px;
+		text-decoration: none;
+		float: right;
+		line-height: 35px;
+		font-weight: bold;
+}
+
+.nav li a:hover{
+		color: #5a5ffa;
+}
+
+
+
+/*------------------------------------Products catalog & Scrolling Image--------------------------------------*/
+
+/*-Set up division to auto match measurements of sub-division-*/
+.productsArea{
+		margin: 0 auto;
+		padding: 0;
+    	overflow: auto; /*-div to auto match sub div height-*/
+		width: 1500px;     /*-Width of 4th div-*/
+		
+}
+
+.productsArea div{
+		float: left;
+		
+}
+
+.productsCatalog{
+		margin-left: 150px;
+		width: 220px;
+		background-color: #9ec1fc;
+
+}
+
+
+/*-ul of Catalog-*/
+.productsNav{
+		list-style: none;
+		font-size: 22px;
+		margin: 0 0 18px 0;
+		padding: 0;
+		text-align: center;
+		font-weight: bold;
+}
+
+/*-Set up li tags to fit browser-*/
+.productsNav li{
+		box-shadow: 15px 15px 10px #888888;
+		height: 30px;
+		margin: 15px 0 0 0;
+		padding: 25px 0 0 0;
+}
+
+.productsNav a{
+		color: #007572;
+		text-decoration: none;
+}
+
+.productsNav li a:hover{
+		color: #5a5ffa;
+}
+
+/* ----------------Scrolling Image----------------- */
+
+.scrollingImg{
+		margin-left: 30px;
+		margin-top: 2px;
+		width: 900px;
+		height: 430px;
+		border: 1px solid red;
+		position: relative;
+		overflow: auto;
+}
+
+.scrollingImg ul li{
+		float: left;
+		list-style: none;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 10px;
+}
+
+	
+#scrolling1{
+		height: 100%;
+		width: 100%;
+}
+
+.scrollingImg img{
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	
+}
+
+/*------------------------------------------ Middle picture --------------------------------------------*/
+
+.midPicture{
+	margin-left: 180px;     /* Margin left 180px */
+	margin-top: 1px;
+	padding: 0;
+	width: 1100px;
+	height: 150px;
+}
+
+.midPicture img{
+	width: 100%;
+	height: 100%;
+}
+
+
+/*------------------------------------------ Border line --------------------------------------------*/
+
+/*-Div of border line-*/
+.borderLine{  
+		margin-left: 220px;
+		width: 1100px;     /*-Width of 6th div-*/
+		height: 80px;
+		line-height: 80PX;
+		text-align: center;
+}
+.borderLine div{	
+		float: left;
+}
+.line{
+		font-size: 25px;
+		font-weight: bold;
+		width: 220px;
+}
+.left{
+		width: 35%;
+}
+.right{
+		width: 35%;
+}
+
+/*-Link to more products-*/
+.more{
+		width: 10%;
+		height: 80px;
+}
+.more a{
+		text-decoration: none;
+		line-height:135px;            /*-Set position of the <a> tag-*/
+		font-size: 19px;
+		
+}
+
+
+
+/*------------------------------------------- Products on special --------------------------------------*/
+
+.productsOnSpecial{
+	margin: 0 auto;
+	padding: 0;
+	margin-left: 190px;
+	width: 1105px;
+	
+	display: flex;
+	flex-flow: row wrap;
+
+}
+
+.productsOnSpecial div{
+	margin: 0;
+	padding: 0;
+	width: 273px;
+	height: 320px;
+	border: 1px solid grey;
+	text-align: center;
+	line-height: 350px;
+}
+
+
+
+
+/*--------------------------------------Gallery Images--------------------------------------------*/
+.productsGallery {
+	margin: 0;
+	padding: 0;
+	margin-left: 190px;
+	width: 1105px;
+	display: flex;
+	flex-flow: row wrap; /*--To change extra divs to next row --*/
+}
+
+
+.productsGallery .product{
+    	border: 1px solid #adadad ;
+    	width: 19.7%;
+    	height: 350px;
+	
+}
+
+/*-Set milk powder images position-*/
+#images {
+	margin-left: 9px;
+	width: 90%;
+	height: 200px;
+    	border: 1px solid red ;
+	align-content: center;
+}
+
+.mikeGallery img{
+	width: 100%;
+	height: 100%;
+}
+
+.dscrip{
+	width: 100%;
+	height: 80px;
+	border: 1px solid red ;
+	text-align: center;
+	
+}
+
+.price{
+	width: 100%;
+	height: 59px;
+	border: 1px solid red ;
+	text-align: center;
+}
+
+.loginPage{		
+		margin-left: 2%;
+		margin-top: 1px;
+		width: 60%;
+		height: 430px;
+		border: 1px solid red;
+	
+}
+
+
+
+
